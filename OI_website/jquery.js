@@ -37,6 +37,19 @@ function drawWeather( d ) {
   } else if( main.indexOf('Clouds') > -1 ) {
   	document.body.className = 'rood';
   }
+    else if( main.indexOf('Thunderstorm') > -1 ) {
+    document.body.className = 'rood';
+  }
+    else if( main.indexOf('Drizzle') > -1 ) {
+  	document.body.className = 'rood';
+  }
+    else if( main.indexOf('Snow') > -1 ) {
+    document.body.className = 'rood';
+  }
+    else if( main.indexOf('Atmosphere') > -1 ) {
+    document.body.className = 'rood';
+  }
+
 }
 
  // <noscript <link href="stylesheet.css" rel="stylesheet"></noscript>
