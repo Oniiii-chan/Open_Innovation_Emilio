@@ -1,0 +1,17 @@
+body {
+  background-color:black;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+body.groen {
+  background-color: green;
+}
+
+body.blauw{
+  background-color: blue;
+}
+
+body.rood{
+  background-color: red;
+}
