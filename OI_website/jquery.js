@@ -8,7 +8,7 @@ function getStylesheet() {
       }
 }
 
-// getStylesheet();
+ getStylesheet();
 
 function weatherBalloon( cityID ) {
   var key = 'b66159bf91b5fbe629c147082909b174';
@@ -31,23 +31,23 @@ function drawWeather( d ) {
   var main = d.weather[0].main;
 
   if( main.indexOf('Clear') > -1 ) {
-  	document.body.className = 'groen';
+  	document.body.className = 'clear';
   } else if( main.indexOf('Rain') > -1 ) {
-  	document.body.className = 'blauw';
+  	document.body.className = 'rain';
   } else if( main.indexOf('Clouds') > -1 ) {
-  	document.body.className = 'rood';
+  	document.body.className = 'clouds';
   }
     else if( main.indexOf('Thunderstorm') > -1 ) {
-    document.body.className = 'rood';
+    document.body.className = 'rain';
   }
     else if( main.indexOf('Drizzle') > -1 ) {
-  	document.body.className = 'rood';
+  	document.body.className = 'rain';
   }
     else if( main.indexOf('Snow') > -1 ) {
-    document.body.className = 'rood';
+    document.body.className = 'snow';
   }
     else if( main.indexOf('Atmosphere') > -1 ) {
-    document.body.className = 'rood';
+    document.body.className = 'clouds';
   }
 
 }

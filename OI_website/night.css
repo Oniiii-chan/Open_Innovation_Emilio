@@ -1,6 +1,33 @@
 body {
   background-color:black;
-  background-image:url(pictures/pixelart3_donker.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+body.clear {
+  background-color:black;
+  background-image:url(pictures/clear_night.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+body.clouds{
+  background-color:black;
+  background-image:url(pictures/clouds_night.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+body.snow{
+  background-color:black;
+  background-image:url(pictures/snow_night.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+body.rain{
+  background-color:black;
+  background-image:url(pictures/rain_night.png);
   background-size:cover;
   background-repeat:no-repeat;
 }

@@ -1,6 +1,33 @@
 body {
   background-color:black;
-  background-image:url(pictures/pixelart3_licht2.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+body.clear {
+  background-color:black;
+  background-image:url(pictures/clear_day.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+body.clouds{
+  background-color:black;
+  background-image:url(pictures/clouds_day.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+body.snow{
+  background-color:black;
+  background-image:url(pictures/snow_day.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+body.rain{
+  background-color:black;
+  background-image:url(pictures/rain_day.png);
   background-size:cover;
   background-repeat:no-repeat;
 }
