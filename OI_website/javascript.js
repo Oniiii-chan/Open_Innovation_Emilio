@@ -1,10 +1,10 @@
 function getStylesheet() {
       var currentTime = new Date().getHours();
       if (0 <= currentTime&&currentTime < 15) {
-       document.write("<link rel='stylesheet' href='night.css' type='text/css'>");
+       document.write("<link rel='stylesheet' href='day.css' type='text/css'>");
       }
       if (15 <= currentTime&&currentTime < 24) {
-       document.write("<link rel='stylesheet' href='day.css' type='text/css'>");
+       document.write("<link rel='stylesheet' href='night.css' type='text/css'>");
       }
 }
 
@@ -24,7 +24,10 @@ function weatherBalloon( cityID ) {
 }
 
 window.onload = function() {
-  weatherBalloon( 2746301 );
+     weatherBalloon( 2746301 ); //tilburg
+   // weatherBalloon( 5403676 );
+    // weatherBalloon( 5983720 );
+    // weatherBalloon( 2643743 );
 }
 
 function drawWeather( d ) {
